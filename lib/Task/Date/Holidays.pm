@@ -135,13 +135,9 @@ Jonas B. Nielsen, (jonasbn) - C<< <jonasbn@cpan.org> >>
 
 =head1 LICENSE AND COPYRIGHT
 
-Date-Holidays and related modules are (C) by Jonas B. Nielsen, (jonasbn)
-2004-2014
+Task-Date-Holidays and related modules are (C) by Jonas B. Nielsen, (jonasbn)
+2014
 
-Date-Holidays and related modules are released under the artistic license
-
-The distribution is licensed under the Artistic License, as specified
-by the Artistic file in the standard perl distribution
-(http://www.perl.com/language/misc/Artistic.html).
+Task-Date-Holidays and related modules are released under the Artistic License 2.0
 
 =cut
