@@ -11,7 +11,7 @@ __END__
 
 =head1
 
-Task::Date::Holidays - all modules in the Date::Holidays namespace
+Task::Date::Holidays - Work package for holiday modules in the Date::Holidays namespace
 
 =head1 VERSION
 
