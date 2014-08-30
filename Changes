@@ -2,7 +2,7 @@ Changes file for Task-Date-Holidays
 
 0.02 2014.08.29 maintenance release, update not required
 
-- Fixed POD error
+- Fixed POD error (missing heading)
 
 - Added Perl version requirement, POD syntax use requires 5.6
 
