@@ -1,10 +1,6 @@
-# 
+# NAME
 
-Task::Date::Holidays - all modules in the Date::Holidays namespace
-
-# VERSION
-
-This POD describes version 0.01 of Task::Date::Holidays
+Task::Date::Holidays - Work package for holiday modules in the Date::Holidays namespace
 
 # SYNOPSIS
 
