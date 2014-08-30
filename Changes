@@ -1,5 +1,11 @@
 Changes file for Task-Date-Holidays
 
+0.03 2014-08-30 maintenance release, update not required
+
+- Merged changes from Gabor adding handling of META data on
+  Github and generation of META.json
+
+
 0.02 2014.08.29 maintenance release, update not required
 
 - Fixed POD error (missing heading)
