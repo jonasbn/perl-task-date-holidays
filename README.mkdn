@@ -57,6 +57,7 @@ Please see Date::Holidays
 - [Date::Holidays::NZ](https://metacpan.org/pod/Date::Holidays::NZ)
 - [Date::Holidays::PL](https://metacpan.org/pod/Date::Holidays::PL)
 - [Date::Holidays::PT](https://metacpan.org/pod/Date::Holidays::PT)
+- [Date::Holidays::RU](https://metacpan.org/pod/Date::Holidays::RU)
 - [Date::Holidays::SK](https://metacpan.org/pod/Date::Holidays::SK)
 - [Date::Holidays::UK](https://metacpan.org/pod/Date::Holidays::UK)
 - [Date::Holidays::USFederal](https://metacpan.org/pod/Date::Holidays::USFederal)

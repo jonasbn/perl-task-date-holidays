@@ -88,6 +88,8 @@ Please see Date::Holidays
 
 =item * L<Date::Holidays::PT>
 
+=item * L<Date::Holidays::RU>
+
 =item * L<Date::Holidays::SK>
 
 =item * L<Date::Holidays::UK>
