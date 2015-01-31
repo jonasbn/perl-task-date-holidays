@@ -1,8 +1,13 @@
 Changes file for Task-Date-Holidays
 
+0.04 2015-01-31 feature release, update not required
+
+- Adding Date::Holidays::RU, contribution by Alexander Nalobin
+
+
 0.03 2014-08-30 maintenance release, update not required
 
-- Merged changes from Gabor adding handling of META data on
+- Merged changes from Gabor Szabo adding handling of META data on
   Github and generation of META.json
 
 
