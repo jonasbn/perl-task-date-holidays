@@ -132,20 +132,22 @@ or by sending mail to
 
 Jonas B. Nielsen, (jonasbn) - C<< <jonasbn@cpan.org> >>
 
-=head1 ACKNOWLEDGEMENT
+=head1 ACKNOWLEDGEMENTS
 
 =over
 
-=item * Alexander Nalobin, patch for inclusion of Date::Holidays::RU, 0.04
+=item * Alexander Nalobin (NALOBIN), patch for inclusion of Date::Holidays::RU, 0.04
 
-=item * Gabor Szabo, patch assisting META data generation, 0.03
+=item * Gabor Szabo (SZABGAB), patch assisting META data generation, 0.03
+
+=item * Alberto Simoes (AMBS), for patching Date::Holidays::PT which was broken
 
 =back
 
 =head1 LICENSE AND COPYRIGHT
 
 Task-Date-Holidays and related modules are (C) by Jonas B. Nielsen, (jonasbn)
-2014
+2014-2015
 
 Task-Date-Holidays and related modules are released under the Artistic License 2.0
 
