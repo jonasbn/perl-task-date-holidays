@@ -2,8 +2,10 @@ Changes file for Task-Date-Holidays
 
 0.05 2015-08-22 feature release, update not required
 
-- Reenabled Date::Holidays::PT, thanks to AMBS for patching it
-  so it will work again
+- Re-enabled Date::Holidays::PT, thanks to AMBS for patching it
+  so it will work again, thanks to AMBS for patch resulting in release 0.03 (see RT:98441)
+
+  https://rt.cpan.org/Ticket/Display.html?id=98441
 
 
 0.04 2015-01-31 feature release, update not required
