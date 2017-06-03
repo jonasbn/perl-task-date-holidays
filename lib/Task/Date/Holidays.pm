@@ -10,6 +10,16 @@ __END__
 
 =pod
 
+=begin markdown
+
+# Date::Holidays
+
+[![CPAN version](https://badge.fury.io/pl/Task-Date-Holidays.svg)](http://badge.fury.io/pl/Task-Date-Holidays)
+[![Build Status](https://travis-ci.org/jonasbn/perl-Task-Date-Holidays.svg?branch=master)](https://travis-ci.org/jonasbn/perl-Task-Date-Holidays)
+[![Coverage Status](https://coveralls.io/repos/jonasbn/perl-Task-Date-Holidays/badge.png?branch=master)](https://coveralls.io/r/jonasbn/perl-Task-Date-Holidays?branch=master)
+
+=end markdown
+
 =head1 NAME
 
 Task::Date::Holidays - Work package for holiday modules in the Date::Holidays namespace
@@ -149,7 +159,7 @@ Jonas B. Nielsen, (jonasbn) - C<< <jonasbn@cpan.org> >>
 =head1 LICENSE AND COPYRIGHT
 
 Task-Date-Holidays and related modules are (C) by Jonas B. Nielsen, (jonasbn)
-2014-2015
+2014-2017
 
 Task-Date-Holidays and related modules are released under the Artistic License 2.0
 
