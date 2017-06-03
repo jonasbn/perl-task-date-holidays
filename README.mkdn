@@ -1,3 +1,9 @@
+# Date::Holidays
+
+[![CPAN version](https://badge.fury.io/pl/Task-Date-Holidays.svg)](http://badge.fury.io/pl/Task-Date-Holidays)
+[![Build Status](https://travis-ci.org/jonasbn/perl-Task-Date-Holidays.svg?branch=master)](https://travis-ci.org/jonasbn/perl-Task-Date-Holidays)
+[![Coverage Status](https://coveralls.io/repos/jonasbn/perl-Task-Date-Holidays/badge.png?branch=master)](https://coveralls.io/r/jonasbn/perl-Task-Date-Holidays?branch=master)
+
 # NAME
 
 Task::Date::Holidays - Work package for holiday modules in the Date::Holidays namespace
@@ -43,6 +49,7 @@ Please see Date::Holidays
 - [Date::Holidays::AT](https://metacpan.org/pod/Date::Holidays::AT)
 - [Date::Holidays::AU](https://metacpan.org/pod/Date::Holidays::AU)
 - [Date::Holidays::BR](https://metacpan.org/pod/Date::Holidays::BR)
+- [Date::Holidays::BY](https://metacpan.org/pod/Date::Holidays::BY)
 - [Date::Holidays::CA](https://metacpan.org/pod/Date::Holidays::CA)
 - [Date::Holidays::CA\_ES](https://metacpan.org/pod/Date::Holidays::CA_ES)
 - [Date::Holidays::CN](https://metacpan.org/pod/Date::Holidays::CN)
@@ -88,9 +95,15 @@ or by sending mail to
 
 Jonas B. Nielsen, (jonasbn) - `<jonasbn@cpan.org>`
 
+# ACKNOWLEDGEMENTS
+
+- Alexander Nalobin (NALOBIN), patch for inclusion of Date::Holidays::RU, 0.04
+- Gabor Szabo (SZABGAB), patch assisting META data generation, 0.03
+- Alberto Simoes (AMBS), for patching Date::Holidays::PT which was broken
+
 # LICENSE AND COPYRIGHT
 
 Task-Date-Holidays and related modules are (C) by Jonas B. Nielsen, (jonasbn)
-2014
+2014-2017
 
 Task-Date-Holidays and related modules are released under the Artistic License 2.0
