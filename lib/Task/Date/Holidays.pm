@@ -60,6 +60,8 @@ Please see Date::Holidays
 
 =item * L<Date::Holidays::BR>
 
+=item * L<Date::Holidays::BY>
+
 =item * L<Date::Holidays::CA>
 
 =item * L<Date::Holidays::CA_ES>
