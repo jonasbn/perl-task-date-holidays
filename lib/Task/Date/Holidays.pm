@@ -16,7 +16,6 @@ __END__
 
 [![CPAN version](https://badge.fury.io/pl/Task-Date-Holidays.svg)](http://badge.fury.io/pl/Task-Date-Holidays)
 [![Build Status](https://travis-ci.org/jonasbn/perl-Task-Date-Holidays.svg?branch=master)](https://travis-ci.org/jonasbn/perl-Task-Date-Holidays)
-[![Coverage Status](https://coveralls.io/repos/jonasbn/perl-Task-Date-Holidays/badge.png?branch=master)](https://coveralls.io/r/jonasbn/perl-Task-Date-Holidays?branch=master)
 
 =end markdown
 
