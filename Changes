@@ -1,5 +1,14 @@
 Changes file for Task-Date-Holidays
 
+0.06 2017-06-03 Feature release, update not required
+
+- Added Date::Holidays::BY, Belarus
+
+- Added Date::Japanese::Holiday, Japan - had been left out?
+
+- Added Date::Holidays::UK, United Kingdom - had also been left out?
+
+
 0.05 2015-08-22 feature release, update not required
 
 - Re-enabled Date::Holidays::PT, thanks to AMBS for patching it
