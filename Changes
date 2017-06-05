@@ -2,6 +2,8 @@ Changes file for Task-Date-Holidays
 
 0.07 2017-06-05 Maintenance release, update not required
 
+- Added CONTRIBUTING.md
+
 - Updated Dist::Zilla config to contemporary version
 
 - Added Gitter link (Date::Holidays channel)
