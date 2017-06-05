@@ -1,5 +1,16 @@
 Changes file for Task-Date-Holidays
 
+0.07 2017-06-05 Maintenance release, update not required
+
+- Updated Dist::Zilla config to contemporary version
+
+- Added Gitter link (Date::Holidays channel)
+
+- Added MANIFEST.SKIP from my Gist: https://gist.github.com/jonasbn/aa6646544f2233de39f34c49532215ad
+
+- Changed bug reporting to Github issues
+
+
 0.06 2017-06-03 Feature release, update not required
 
 - Added Date::Holidays::BY, Belarus
