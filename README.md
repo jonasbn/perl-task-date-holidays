@@ -1,4 +1,4 @@
-# Date::Holidays
+# Task::Date::Holidays
 
 [![CPAN version](https://badge.fury.io/pl/Task-Date-Holidays.svg)](http://badge.fury.io/pl/Task-Date-Holidays)
 [![Build Status](https://travis-ci.org/jonasbn/perl-Task-Date-Holidays.svg?branch=master)](https://travis-ci.org/jonasbn/perl-Task-Date-Holidays)
@@ -7,6 +7,10 @@
 # NAME
 
 Task::Date::Holidays - Work package for holiday modules in the Date::Holidays namespace
+
+# VERSION
+
+version 0.07
 
 # SYNOPSIS
 
@@ -24,25 +28,19 @@ Task::Date::Holidays - Work package for holiday modules in the Date::Holidays na
 
 # DESCRIPTION
 
-THis module is intended to provide an easy way to
-install all of the Date::Holidays::\* distributions.
+THis module is intended to provide an easy way to install all of the Date::Holidays::\* distributions.
 
-Bundling these makes it easier for me to maintain
-Date::Holidays.
+Bundling these makes it easier for me personally, in the work related to maintaining [Date::Holidays](https://metacpan.org/pod/Date::Holidays).
 
-If your distribution is missing, let me know or
-fork and send me a pull request or just let me know.
+If your distribution is missing, let me know or fork and send me a pull request or just let me know.
 
-If you want to provide a distribution to the namespace
-please see Date::Holidays for more documentation on this.
+If you want to provide a distribution to the namespace, please see Date::Holidays for more documentation on this.
 
-Please note that because a distribution is listed in
-the below list, does not necessarily make it compatible
-with the Date::Holidays API. Distributions listed here
-indicate that a given distribution is either compatible or
-being condisered for inclusion.
+Do note that because a distribution is listed in the below list, does not necessarily make it compatible with the
+Date::Holidays API. Distributions listed here indicate that a given distribution is either compatible or
+being considered for inclusion.
 
-Please see Date::Holidays
+Please see [Date::Holidays](https://metacpan.org/pod/Date::Holidays)
 
 # CONTENTS
 
@@ -81,15 +79,11 @@ Please see Date::Holidays
 
 No special configuration or environment is required.
 
-# BUG REPORTING
+# ISSUE REPORTING
 
-Please report issues via CPAN RT:
+Please report any bugs or feature requests either using Github
 
-    http://rt.cpan.org/NoAuth/Bugs.html?Dist=Date-Holidays
-
-or by sending mail to
-
-    bug-Date-Holidays@rt.cpan.org
+- [Github Issues](https://github.com/jonasbn/perl-test-timer/issues)
 
 # AUTHOR
 
