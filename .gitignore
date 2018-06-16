@@ -24,3 +24,4 @@ Makefile.PL
 *.sublime-workspace
 README
 Task-Date-Holidays-*.*/
+.vstags
