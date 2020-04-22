@@ -8,10 +8,6 @@
 
 Task::Date::Holidays - Work package for holiday modules in the Date::Holidays namespace
 
-# VERSION
-
-version 0.07
-
 # SYNOPSIS
 
     $ tar xvzf Task-Date-Holidays-0.01.tgz
@@ -99,6 +95,6 @@ Jonas B. Nielsen, (jonasbn) - `<jonasbn@cpan.org>`
 # LICENSE AND COPYRIGHT
 
 Task-Date-Holidays and related modules are (C) by Jonas B. Nielsen, (jonasbn)
-2014-2017
+2014-2020
 
 Task-Date-Holidays and related modules are released under the Artistic License 2.0

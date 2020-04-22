@@ -1,8 +1,11 @@
+package Task::Date::Holidays;
+
 use strict;
 use warnings;
+use vars qw($VERSION);
 use 5.006;
 
-package Task::Date::Holidays;
+$VERSION = '0.08';
 
 1;
 
@@ -98,6 +101,8 @@ Please see L<Date::Holidays>
 
 =item * L<Date::Holidays::SK>
 
+=item * L<Date::Holidays::UA>
+
 =item * L<Date::Holidays::UK>
 
 =item * L<Date::Holidays::USFederal>
@@ -153,7 +158,7 @@ Jonas B. Nielsen, (jonasbn) - C<< <jonasbn@cpan.org> >>
 =head1 LICENSE AND COPYRIGHT
 
 Task-Date-Holidays and related modules are (C) by Jonas B. Nielsen, (jonasbn)
-2014-2017
+2014-2020
 
 Task-Date-Holidays and related modules are released under the Artistic License 2.0
 
