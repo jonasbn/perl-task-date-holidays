@@ -1,56 +1,24 @@
-sudo: false # Migrating from legacy to container-based infrastructure for Travis
-            # Ref: http://docs.travis-ci.com/user/migrating-from-legacy/
+sudo: false
 language: perl
 perl:
-  - "5.30"
-  - "5.14"
-
+- '5.30'
+- '5.14'
 before_install:
-
-   # Prevent "Please tell me who you are" errors for certain DZIL configs
-
-   - git config --global user.name "TravisCI"
-
+- git config --global user.name "TravisCI"
 install:
-
-   # Deal with all of the DZIL dependencies, quickly and quietly
-
-   - cpanm --quiet --notest --skip-satisfied Dist::Zilla
-
-   # Hack to getting the latest Test::Kwalitee
-
-   - cpanm --quiet --notest Test::Kwalitee
-
-   # Getting coveralls report
-
-   - cpanm --quiet --notest Devel::Cover::Report::Coveralls
-
-   # Getting cover command for Dist::Zilla
-
-   - cpanm --quiet --notest Dist::Zilla::App::Command::cover
-
-   # Getting all the plugins used by Dist::Zilla in this particular setup
-
-   - dzil authordeps | grep -vP '[^\w:]' | xargs -n 5 -P 10 cpanm --quiet --notest --skip-satisfied
-
-   # Getting all the dependencies requested by author
-
-   - dzil listdeps --author | cpanm --skip-satisfied
-
-   - export RELEASE_TESTING=1 AUTOMATED_TESTING=1 AUTHOR_TESTING=1 HARNESS_OPTIONS=j10:c HARNESS_TIMER=1
-
-   # Getting all the dependencies requested by distribution
-
-   - dzil listdeps | grep -vP '[^\w:]' | cpanm --quiet --notest --skip-satisfied
-
+- cpanm --quiet --notest --skip-satisfied Dist::Zilla
+- cpanm --quiet --notest Test::Kwalitee
+- cpanm --quiet --notest Devel::Cover::Report::Coveralls
+- cpanm --quiet --notest Dist::Zilla::App::Command::cover
+- dzil authordeps | grep -vP '[^\w:]' | xargs -n 5 -P 10 cpanm --quiet --notest --skip-satisfied
+- dzil listdeps --author | cpanm --skip-satisfied
+- export RELEASE_TESTING=1 AUTOMATED_TESTING=1 AUTHOR_TESTING=1 HARNESS_OPTIONS=j10:c
+  HARNESS_TIMER=1
+- dzil listdeps | grep -vP '[^\w:]' | cpanm --quiet --notest --skip-satisfied
 script:
-
-   - dzil smoke --release --author
-
+- dzil smoke --release --author
 after_success:
-
-    - dzil cover -outputdir cover_db -report coveralls
-
+- dzil cover -outputdir cover_db -report coveralls
 notifications:
   slack:
-    secure: ZQxH5U+sxuCdGyq+VUiv/THPgCmJ/CuQo4tJ4Q3qidB7gm+SDz8r/dD9VJ5Isyb0iNvjWVBJdHppWQvQUcZOh4fb7OIoM48G5FsZuHl0mvyzuXabUhXsMz1iT4UUVdtARgOHF76thIKfnRZZwK7wdohFPqRZ/35+LUxO+lrPAjg=
+    secure: C3pbifOT8+F8muQmTRzDZE+N1Wof6HxCt6ppIh1HStmJF1UsdLZDWesjbZ9Zu7zDa+DaYTyFphP15JHutfSfMKtWRFw0Pb2c35i940886wiujYREl+Latu+vEmgjUR8bRJ0A0IKvmT/upjz2b/nLcDobBHC4rTZVip4vhzaJ1iw=
