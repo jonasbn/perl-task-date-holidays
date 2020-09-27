@@ -24,17 +24,15 @@ Task::Date::Holidays - Work package for holiday modules in the Date::Holidays na
 
 # DESCRIPTION
 
-THis module is intended to provide an easy way to install all of the Date::Holidays::\* distributions.
+THis distribution is intended to provide an easy way to install all of the Date::Holidays::\* distributions.
 
-Bundling these makes it easier for me personally, in the work related to maintaining [Date::Holidays](https://metacpan.org/pod/Date%3A%3AHolidays).
+Bundling these makes it easier for me, in the work related to maintaining [Date::Holidays](https://metacpan.org/pod/Date%3A%3AHolidays).
 
-If your distribution is missing, let me know or fork and send me a pull request or just let me know.
+If your distribution is missing send me a pull request or just let me know.
 
-If you want to provide a distribution to the namespace, please see Date::Holidays for more documentation on this.
+If you want to provide a distribution to the namespace, please see Date::Holidays for more information.
 
-Do note that because a distribution is listed in the below list, does not necessarily make it compatible with the
-Date::Holidays API. Distributions listed here indicate that a given distribution is either compatible or
-being considered for inclusion.
+Do note that because a distribution is listed in the below list, does not necessarily make it compatible with the Date::Holidays API. Distributions listed here indicate that a given distribution is either compatible or being considered for inclusion.
 
 Please see [Date::Holidays](https://metacpan.org/pod/Date%3A%3AHolidays)
 
@@ -42,6 +40,7 @@ Please see [Date::Holidays](https://metacpan.org/pod/Date%3A%3AHolidays)
 
 - [Date::Holidays::AT](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3AAT)
 - [Date::Holidays::AU](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3AAU)
+- [Date::Holidays::AW](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3AAW)
 - [Date::Holidays::BR](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3ABR)
 - [Date::Holidays::BY](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3ABY)
 - [Date::Holidays::CA](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3ACA)
@@ -54,6 +53,8 @@ Please see [Date::Holidays](https://metacpan.org/pod/Date%3A%3AHolidays)
 - [Date::Holidays::FR](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3AFR)
 - [Date::Holidays::GB](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3AGB)
 - [Date::Holidays::KR](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3AKR)
+- [Date::Holidays::KZ](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3AKZ)
+- [Date::Holidays::NL](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3ANL)
 - [Date::Holidays::NO](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3ANO)
 - [Date::Holidays::NZ](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3ANZ)
 - [Date::Holidays::PL](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3APL)
@@ -78,13 +79,13 @@ No special configuration or environment is required.
 
 # ISSUE REPORTING
 
-Please report any bugs or feature requests either using Github
+Please report any bugs or feature requests using Github
 
 - [Github Issues](https://github.com/jonasbn/perl-test-timer/issues)
 
 # AUTHOR
 
-Jonas B. Nielsen, (jonasbn) - `<jonasbn@cpan.org>`
+Jonas B., (jonasbn) - `<jonasbn@cpan.org>`
 
 # ACKNOWLEDGEMENTS
 
@@ -94,7 +95,7 @@ Jonas B. Nielsen, (jonasbn) - `<jonasbn@cpan.org>`
 
 # LICENSE AND COPYRIGHT
 
-Task-Date-Holidays and related modules are (C) by Jonas B. Nielsen, (jonasbn)
+Task-Date-Holidays and related modules are (C) by Jonas B., (jonasbn)
 2014-2020
 
 Task-Date-Holidays and related modules are released under the Artistic License 2.0

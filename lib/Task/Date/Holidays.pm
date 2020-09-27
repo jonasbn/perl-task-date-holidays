@@ -5,7 +5,7 @@ use warnings;
 use vars qw($VERSION);
 use 5.006;
 
-$VERSION = '0.08';
+$VERSION = '0.09';
 
 1;
 
@@ -43,17 +43,15 @@ Task::Date::Holidays - Work package for holiday modules in the Date::Holidays na
 
 =head1 DESCRIPTION
 
-THis module is intended to provide an easy way to install all of the Date::Holidays::* distributions.
+THis distribution is intended to provide an easy way to install all of the Date::Holidays::* distributions.
 
-Bundling these makes it easier for me personally, in the work related to maintaining L<Date::Holidays>.
+Bundling these makes it easier for me, in the work related to maintaining L<Date::Holidays>.
 
-If your distribution is missing, let me know or fork and send me a pull request or just let me know.
+If your distribution is missing send me a pull request or just let me know.
 
-If you want to provide a distribution to the namespace, please see Date::Holidays for more documentation on this.
+If you want to provide a distribution to the namespace, please see Date::Holidays for more information.
 
-Do note that because a distribution is listed in the below list, does not necessarily make it compatible with the
-Date::Holidays API. Distributions listed here indicate that a given distribution is either compatible or
-being considered for inclusion.
+Do note that because a distribution is listed in the below list, does not necessarily make it compatible with the Date::Holidays API. Distributions listed here indicate that a given distribution is either compatible or being considered for inclusion.
 
 Please see L<Date::Holidays>
 
@@ -64,6 +62,8 @@ Please see L<Date::Holidays>
 =item * L<Date::Holidays::AT>
 
 =item * L<Date::Holidays::AU>
+
+=item * L<Date::Holidays::AW>
 
 =item * L<Date::Holidays::BR>
 
@@ -88,6 +88,10 @@ Please see L<Date::Holidays>
 =item * L<Date::Holidays::GB>
 
 =item * L<Date::Holidays::KR>
+
+=item * L<Date::Holidays::KZ>
+
+=item * L<Date::Holidays::NL>
 
 =item * L<Date::Holidays::NO>
 
@@ -131,7 +135,7 @@ No special configuration or environment is required.
 
 =head1 ISSUE REPORTING
 
-Please report any bugs or feature requests either using Github
+Please report any bugs or feature requests using Github
 
 =over
 
@@ -141,7 +145,7 @@ Please report any bugs or feature requests either using Github
 
 =head1 AUTHOR
 
-Jonas B. Nielsen, (jonasbn) - C<< <jonasbn@cpan.org> >>
+Jonas B., (jonasbn) - C<< <jonasbn@cpan.org> >>
 
 =head1 ACKNOWLEDGEMENTS
 
@@ -157,7 +161,7 @@ Jonas B. Nielsen, (jonasbn) - C<< <jonasbn@cpan.org> >>
 
 =head1 LICENSE AND COPYRIGHT
 
-Task-Date-Holidays and related modules are (C) by Jonas B. Nielsen, (jonasbn)
+Task-Date-Holidays and related modules are (C) by Jonas B., (jonasbn)
 2014-2020
 
 Task-Date-Holidays and related modules are released under the Artistic License 2.0
