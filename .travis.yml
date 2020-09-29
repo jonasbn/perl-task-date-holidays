@@ -6,6 +6,7 @@ perl:
 before_install:
 - git config --global user.name "TravisCI"
 install:
+- export PERL_DATETIME_ASTRO_BACKEND="PP"
 - cpanm --quiet --notest --skip-satisfied Dist::Zilla
 - cpanm --quiet --notest Test::Kwalitee
 - cpanm --quiet --notest Devel::Cover::Report::Coveralls
