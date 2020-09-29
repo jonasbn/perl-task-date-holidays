@@ -5,7 +5,7 @@ use warnings;
 use vars qw($VERSION);
 use 5.006;
 
-$VERSION = '0.09';
+$VERSION = '0.10';
 
 1;
 
@@ -25,7 +25,7 @@ __END__
 
 =head1 NAME
 
-Task::Date::Holidays - Work package for holiday modules in the Date::Holidays namespace
+Task::Date::Holidays - Work distribution for holiday modules in the Date::Holidays namespace
 
 =head1 SYNOPSIS
 

@@ -1,5 +1,10 @@
 Changes file for Task-Date-Holidays
 
+0.10 2020-09-29 Maintenance release, update not required
+
+- Added missing test requirements to the configuration
+  Test::Fatal and Test::Class
+
 0.09 2020-09-27 Feature release, update not required
 
 - Added Date::Holidays::AW, Aruba
