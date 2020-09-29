@@ -6,7 +6,7 @@
 
 # NAME
 
-Task::Date::Holidays - Work package for holiday modules in the Date::Holidays namespace
+Task::Date::Holidays - Work distribution for holiday modules in the Date::Holidays namespace
 
 # SYNOPSIS
 
