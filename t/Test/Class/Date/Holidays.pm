@@ -389,8 +389,8 @@ sub test_fr : Test(6) {
         eval { require Date::Holidays::FR };
         skip "Date::Holidays::FR not installed", 6 if $@;
 
-        ok(! Date::Holidays::FR->can('holidays'));
-        ok(! Date::Holidays::FR->can('is_holiday'));
+        ok(Date::Holidays::FR->can('holidays'));
+        ok(Date::Holidays::FR->can('is_holiday'));
 
         ok( my $dh = Date::Holidays->new( countrycode => 'fr' ),
             'Testing Date::Holidays::FR' );
