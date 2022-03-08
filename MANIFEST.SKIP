@@ -96,6 +96,9 @@
 \.sublime-project
 \.sublime-workspace
 
+# VScode files
+\.code-workspace
+
 # Perl::Tidy error files
 \bperltidy\.ERR
 
@@ -110,3 +113,6 @@ CONTRIBUTING.md
 
 # Project files
 ^prototypes/
+
+# GitHub Tooling files
+dictionary.dic

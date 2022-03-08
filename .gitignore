@@ -25,3 +25,5 @@ Makefile.PL
 README
 Task-Date-Holidays-*.*/
 .vstags
+dictionary.dic
+perl-task-date-holidays.code-workspace
