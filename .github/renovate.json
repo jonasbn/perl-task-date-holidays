@@ -2,5 +2,5 @@
     "extends": [
         "config:base"
     ],
-    "enabledManagers": ["pre-commit", "github-actions"]
+    "enabledManagers": ["pre-commit"]
 }
