@@ -9,9 +9,9 @@ Task::Date::Holidays - Work distribution for holiday modules in the Date::Holida
 
 # SYNOPSIS
 
-    $ tar xvzf Task-Date-Holidays-0.11.tgz
+    $ tar xvzf Task-Date-Holidays-0.12.tgz
 
-    $ cd Task-Date-Holidays-0.11
+    $ cd Task-Date-Holidays-0.12
 
     $ perl Build.PL
 
@@ -88,6 +88,7 @@ Jonas B., (jonasbn) - `<jonasbn@cpan.org>`
 
 # ACKNOWLEDGEMENTS
 
+- Slaven Rezić (SREZIC), reporting broken tests for 0.11 release
 - Alexander Nalobin (NALOBIN), patch for inclusion of Date::Holidays::RU, 0.04
 - Gabor Szabo (SZABGAB), patch assisting META data generation, 0.03
 - Alberto Simoes (AMBS), for patching Date::Holidays::PT which was broken
