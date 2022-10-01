@@ -44,7 +44,7 @@ Task::Date::Holidays - Work distribution for holiday modules in the Date::Holida
 
 =head1 DESCRIPTION
 
-THis distribution is intended to provide an easy way to install all of the Date::Holidays::* distributions.
+This distribution is intended to provide an easy way to install all of the Date::Holidays::* distributions.
 
 Bundling these makes it easier for me, in the work related to maintaining L<Date::Holidays>.
 
@@ -136,7 +136,7 @@ No special configuration or environment is required.
 
 =head1 ISSUE REPORTING
 
-Please report any bugs or feature requests using Github
+Please report any bugs or feature requests using GitHub
 
 =over
 
@@ -152,7 +152,7 @@ Jonas B., (jonasbn) - C<< <jonasbn@cpan.org> >>
 
 =over
 
-=item * Slaven Rezić (SREZIC), reporting broken tests for 0.11 release
+=item * Slaven Rezic (SREZIC), reporting broken tests for 0.11 release
 
 =item * Alexander Nalobin (NALOBIN), patch for inclusion of Date::Holidays::RU, 0.04
 

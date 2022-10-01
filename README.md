@@ -23,7 +23,7 @@ Task::Date::Holidays - Work distribution for holiday modules in the Date::Holida
 
 # DESCRIPTION
 
-THis distribution is intended to provide an easy way to install all of the Date::Holidays::\* distributions.
+This distribution is intended to provide an easy way to install all of the Date::Holidays::\* distributions.
 
 Bundling these makes it easier for me, in the work related to maintaining [Date::Holidays](https://metacpan.org/pod/Date%3A%3AHolidays).
 
@@ -78,7 +78,7 @@ No special configuration or environment is required.
 
 # ISSUE REPORTING
 
-Please report any bugs or feature requests using Github
+Please report any bugs or feature requests using GitHub
 
 - [Github Issues](https://github.com/jonasbn/perl-task-date-holidays/issues)
 
@@ -88,7 +88,7 @@ Jonas B., (jonasbn) - `<jonasbn@cpan.org>`
 
 # ACKNOWLEDGEMENTS
 
-- Slaven Rezić (SREZIC), reporting broken tests for 0.11 release
+- Slaven Rezic (SREZIC), reporting broken tests for 0.11 release
 - Alexander Nalobin (NALOBIN), patch for inclusion of Date::Holidays::RU, 0.04
 - Gabor Szabo (SZABGAB), patch assisting META data generation, 0.03
 - Alberto Simoes (AMBS), for patching Date::Holidays::PT which was broken

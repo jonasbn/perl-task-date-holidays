@@ -13,6 +13,6 @@ KZ
 DK
 CN
 namespace
-Rezić
+Rezic
 SREZIC
 Slaven
