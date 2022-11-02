@@ -16,6 +16,7 @@ jobs:
     steps:
       - name: "Install C libraries for dependencies"
         run: sudo apt-get update && sudo apt-get install -y libmpfr-dev libgmp-dev
+        run: cat /github/home/.cpanm/build.log
       - name: "Checkout repository"
         uses: actions/checkout@v3
       - name: "Installing dependencies and testing all using dzil"
