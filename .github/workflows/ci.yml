@@ -12,7 +12,7 @@ jobs:
   linux:
     runs-on: ubuntu-latest
     steps:
-      - run: sudo apt-get libmpfr-dev libgmp-dev
+      - run: sudo apt-get update && apt-get install -y libmpfr-dev libgmp-dev
 
   dzil:
     runs-on: ubuntu-latest
