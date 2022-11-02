@@ -4,7 +4,16 @@ on:
   schedule:
     - cron: '0 0 */28 */1 *'
 
+env:
+  GMP_HOME: /usr
+  MPFR_HOME: /usr
+
 jobs:
+  linux:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sudo apt-get libmpfr-dev libgmp-dev
+
   dzil:
     runs-on: ubuntu-latest
     name: "dzil run"
