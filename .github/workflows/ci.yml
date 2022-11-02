@@ -11,13 +11,11 @@ env:
 jobs:
   linux:
     runs-on: ubuntu-latest
-    steps:
-      - run: sudo apt-get update && sudo apt-get install -y libmpfr-dev libgmp-dev
-
-  dzil:
-    runs-on: ubuntu-latest
     name: "dzil run"
+
     steps:
+      - name: "Install C libraries for dependencies"
+      - run: sudo apt-get update && sudo apt-get install -y libmpfr-dev libgmp-dev
       - name: "Checkout repository"
         uses: actions/checkout@v3
       - name: "Installing dependencies and testing all using dzil"
