@@ -112,6 +112,8 @@ Please see L<Date::Holidays>
 
 =item * L<Date::Holidays::UK>
 
+=item * L<Date::Holidays::US>
+
 =item * L<Date::Holidays::USFederal>
 
 =item * L<Date::Japanese::Holiday>
@@ -152,15 +154,19 @@ Jonas B., (jonasbn) - C<< <jonasbn@cpan.org> >>
 
 =head1 ACKNOWLEDGEMENTS
 
+Contributors and others in alphabetical order
+
 =over
 
-=item * Slaven Rezic (SREZIC), reporting broken tests for 0.11 release
-
-=item * Alexander Nalobin (NALOBIN), patch for inclusion of Date::Holidays::RU, 0.04
-
-=item * Gabor Szabo (SZABGAB), patch assisting META data generation, 0.03
-
 =item * Alberto Simoes (AMBS), for patching Date::Holidays::PT which was broken
+
+=item * Alexander Nalobin (NALOBIN), patch for inclusion of Date::Holidays::RU
+
+=item * Gabor Szabo (SZABGAB), patch assisting META data generation
+
+=item * Slaven Rezic (SREZIC), reporting broken tests
+
+=item * All contributors to the Date::Holidays::* namespace
 
 =back
 

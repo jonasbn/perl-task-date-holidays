@@ -717,7 +717,7 @@ sub test_jp : Test(5) {
     }
 }
 
-sub test_us : Test(8) {
+sub test_us_federal : Test(8) {
     SKIP: {
         eval { require Date::Holidays::USFederal };
         skip "Date::Holidays::USFederal not installed", 8 if $@;
@@ -755,6 +755,16 @@ sub test_us : Test(8) {
         );
 
         ok( $holidays_hashref->{US}, 'Checking for US Federal New Year' );
+    }
+}
+
+sub test_us : Test(2) {
+    SKIP: {
+        eval { require Date::Holidays::US };
+        skip "Date::Holidays::US not installed", 8 if $@;
+
+        ok(Date::Holidays::US->can('holidays') );
+        ok(Date::Holidays::US->can('is_holiday') );
     }
 }
 

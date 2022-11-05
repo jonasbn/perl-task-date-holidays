@@ -1,9 +1,9 @@
 # Task::Date::Holidays
 
 [![CPAN version](https://badge.fury.io/pl/Task-Date-Holidays.svg)](http://badge.fury.io/pl/Task-Date-Holidays)
-![Dist::Zilla Build Status](https://github.com/jonasbn/perl-task-date-holidays/actions/workflows/ci.yml/badge.svg)
-![Spellcheck GitHub Action Status](https://github.com/jonasbn/perl-task-date-holidays/actions/workflows/spellcheck.yml/badge.svg)
-![Markdownlint GitHub  Action Status](https://github.com/jonasbn/perl-task-date-holidays/actions/workflows/markdownlint.yml/badge.svg)
+![Build Status](https://github.com/jonasbn/perl-task-date-holidays/actions/workflows/ci.yml/badge.svg)
+![Spellcheck](https://github.com/jonasbn/perl-task-date-holidays/actions/workflows/ci.yml/badge.svg)
+![Markdownlint check](https://github.com/jonasbn/perl-task-date-holidays/actions/workflows/ci.yml/badge.svg)
 
 # NAME
 
@@ -64,6 +64,7 @@ Please see [Date::Holidays](https://metacpan.org/pod/Date%3A%3AHolidays)
 - [Date::Holidays::SK](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3ASK)
 - [Date::Holidays::UA](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3AUA)
 - [Date::Holidays::UK](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3AUK)
+- [Date::Holidays::US](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3AUS)
 - [Date::Holidays::USFederal](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3AUSFederal)
 - [Date::Japanese::Holiday](https://metacpan.org/pod/Date%3A%3AJapanese%3A%3AHoliday)
 
@@ -90,10 +91,13 @@ Jonas B., (jonasbn) - `<jonasbn@cpan.org>`
 
 # ACKNOWLEDGEMENTS
 
-- Slaven Rezic (SREZIC), reporting broken tests for 0.11 release
-- Alexander Nalobin (NALOBIN), patch for inclusion of Date::Holidays::RU, 0.04
-- Gabor Szabo (SZABGAB), patch assisting META data generation, 0.03
+Contributors and others in alphabetical order
+
 - Alberto Simoes (AMBS), for patching Date::Holidays::PT which was broken
+- Alexander Nalobin (NALOBIN), patch for inclusion of Date::Holidays::RU
+- Gabor Szabo (SZABGAB), patch assisting META data generation
+- Slaven Rezic (SREZIC), reporting broken tests
+- All contributors to the Date::Holidays::\* namespace
 
 # LICENSE AND COPYRIGHT
 
