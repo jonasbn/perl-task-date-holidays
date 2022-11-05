@@ -1,4 +1,4 @@
-name: Dist::Zilla Action
+name: Continuous Integration
 on:
   push:
   schedule:
@@ -11,7 +11,7 @@ env:
 jobs:
   linux:
     runs-on: ubuntu-latest
-    name: "dzil run"
+    name: "Continuous Integration"
     steps:
       - name: "Install C libraries for dependencies"
         run: sudo apt-get update && sudo apt-get install -y libmpfr-dev libgmp-dev
@@ -21,6 +21,6 @@ jobs:
         uses: perl-actions/install-with-cpanm@v1
         with:
           cpanfile: "cpanfile"
-          sudo: false
+          sudo: true
       - run: perl Makefile.PL
       - run: make test
