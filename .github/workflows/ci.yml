@@ -22,5 +22,7 @@ jobs:
         with:
           dzil-arguments: 'test --all'
       - name: "Dumping build log"
-        run: cat /github/home/.cpanm/build.log
-        
+        uses: actions/upload-artifact@v3
+        with:
+            name: build-logs
+            path: /github/home/.cpanm/build.log
