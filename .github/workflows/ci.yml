@@ -21,3 +21,6 @@ jobs:
         uses: jonasbn/github-action-perl-dist-zilla@0.3.0
         with:
           dzil-arguments: 'test --all'
+      - name: "Dumping build log"
+        run: cat /github/home/.cpanm/build.log
+        
