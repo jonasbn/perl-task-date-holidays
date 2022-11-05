@@ -20,7 +20,9 @@ __END__
 # Task::Date::Holidays
 
 [![CPAN version](https://badge.fury.io/pl/Task-Date-Holidays.svg)](http://badge.fury.io/pl/Task-Date-Holidays)
-[![Build Status](https://travis-ci.org/jonasbn/perl-Task-Date-Holidays.svg?branch=master)](https://travis-ci.org/jonasbn/perl-Task-Date-Holidays)
+![Build Status](https://github.com/jonasbn/perl-task-date-holidays/actions/workflows/ci.yml/badge.svg)
+![Spellcheck](https://github.com/jonasbn/perl-task-date-holidays/actions/workflows/ci.yml/badge.svg)
+![Markdownlint check](https://github.com/jonasbn/perl-task-date-holidays/actions/workflows/ci.yml/badge.svg)
 
 =end markdown
 
@@ -50,7 +52,7 @@ Bundling these makes it easier for me, in the work related to maintaining L<Date
 
 If your distribution is missing send me a pull request or just let me know.
 
-If you want to provide a distribution to the namespace, please see Date::Holidays for more information.
+If you want to provide a distribution to the namespace, please see L<Date::Holidays> for more information.
 
 Do note that because a distribution is listed in the below list, does not necessarily make it compatible with the Date::Holidays API. Distributions listed here indicate that a given distribution is either compatible or being considered for inclusion.
 

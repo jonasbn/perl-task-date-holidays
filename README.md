@@ -1,7 +1,9 @@
 # Task::Date::Holidays
 
 [![CPAN version](https://badge.fury.io/pl/Task-Date-Holidays.svg)](http://badge.fury.io/pl/Task-Date-Holidays)
-[![Build Status](https://travis-ci.org/jonasbn/perl-Task-Date-Holidays.svg?branch=master)](https://travis-ci.org/jonasbn/perl-Task-Date-Holidays)
+![Dist::Zilla Build Status](https://github.com/jonasbn/perl-task-date-holidays/actions/workflows/ci.yml/badge.svg)
+![Spellcheck GitHub Action Status](https://github.com/jonasbn/perl-task-date-holidays/actions/workflows/spellcheck.yml/badge.svg)
+![Markdownlint GitHub  Action Status](https://github.com/jonasbn/perl-task-date-holidays/actions/workflows/markdownlint.yml/badge.svg)
 
 # NAME
 
@@ -29,7 +31,7 @@ Bundling these makes it easier for me, in the work related to maintaining [Date:
 
 If your distribution is missing send me a pull request or just let me know.
 
-If you want to provide a distribution to the namespace, please see Date::Holidays for more information.
+If you want to provide a distribution to the namespace, please see [Date::Holidays](https://metacpan.org/pod/Date%3A%3AHolidays) for more information.
 
 Do note that because a distribution is listed in the below list, does not necessarily make it compatible with the Date::Holidays API. Distributions listed here indicate that a given distribution is either compatible or being considered for inclusion.
 
