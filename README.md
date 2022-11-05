@@ -2,8 +2,8 @@
 
 [![CPAN version](https://badge.fury.io/pl/Task-Date-Holidays.svg)](http://badge.fury.io/pl/Task-Date-Holidays)
 ![Build Status](https://github.com/jonasbn/perl-task-date-holidays/actions/workflows/ci.yml/badge.svg)
-![Spellcheck](https://github.com/jonasbn/perl-task-date-holidays/actions/workflows/ci.yml/badge.svg)
-![Markdownlint check](https://github.com/jonasbn/perl-task-date-holidays/actions/workflows/ci.yml/badge.svg)
+![Spellcheck](https://github.com/jonasbn/perl-task-date-holidays/actions/workflows/spellcheck.yml/badge.svg)
+![Markdownlint check](https://github.com/jonasbn/perl-task-date-holidays/actions/workflows/markdownlint.yml/badge.svg)
 
 # NAME
 
