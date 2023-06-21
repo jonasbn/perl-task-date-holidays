@@ -31,7 +31,7 @@ on 'test' => sub {
     requires 'Test::Kwalitee', '1.28';
     requires 'Pod::Coverage::TrustPod';
     requires 'Test::Pod', '1.52';
-    requires 'Test::Pod::Coverage', '1.08';
+    requires 'Test::Pod::Coverage', '1.10';
     requires 'Test::Class';   
     requires 'Test::Fatal';
     requires 'Date::Holidays';
