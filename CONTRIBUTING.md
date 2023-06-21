@@ -21,5 +21,5 @@ All contributions are welcome and most will be accepted
 
 ## Licensing and copyright
 
-Please note that accepted contributions are included in the repository and hence 
+Please note that accepted contributions are included in the repository and hence
 under the same license as the repository contributed to.
