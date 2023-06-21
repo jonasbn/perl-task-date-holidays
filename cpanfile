@@ -30,7 +30,7 @@ requires 'Date::Japanese::Holiday';
 on 'test' => sub {
     requires 'Test::Kwalitee', '1.21';
     requires 'Pod::Coverage::TrustPod';
-    requires 'Test::Pod', '1.41';
+    requires 'Test::Pod', '1.52';
     requires 'Test::Pod::Coverage', '1.08';
     requires 'Test::Class';   
     requires 'Test::Fatal';
