@@ -28,7 +28,7 @@ requires 'Date::Holidays::USFederal';
 requires 'Date::Japanese::Holiday';
 
 on 'test' => sub {
-    requires 'Test::Kwalitee', '1.21';
+    requires 'Test::Kwalitee', '1.28';
     requires 'Pod::Coverage::TrustPod';
     requires 'Test::Pod', '1.41';
     requires 'Test::Pod::Coverage', '1.08';
