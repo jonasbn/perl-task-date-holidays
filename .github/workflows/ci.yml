@@ -16,7 +16,7 @@ jobs:
       - name: "Install C libraries for dependencies"
         run: sudo apt-get update && sudo apt-get install -y libmpfr-dev libgmp-dev
       - name: "Checkout repository"
-        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: uses install-with-cpanm
         uses: perl-actions/install-with-cpanm@8ec40bce95c287169e8c13551e5e49d0185ce955 # v2.2
         with:
