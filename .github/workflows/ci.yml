@@ -8,6 +8,9 @@ env:
   GMP_HOME: /usr
   MPFR_HOME: /usr
 
+permissions:
+  contents: read
+
 jobs:
   linux:
     runs-on: ubuntu-latest
@@ -17,6 +20,8 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y libmpfr-dev libgmp-dev
       - name: "Checkout repository"
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
       - name: uses install-with-cpanm
         uses: perl-actions/install-with-cpanm@8ec40bce95c287169e8c13551e5e49d0185ce955 # v2.2
         with:
